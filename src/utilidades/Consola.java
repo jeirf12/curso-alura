@@ -44,8 +44,8 @@ public class Consola {
       opcion = ((Object) variableIngresada).getClass().getSimpleName();
       switch(opcion) {
         case "String" -> { if(!esNumero(valorIngresado)) variableIngresada = (T) String.valueOf(valorIngresado.trim()); }
-        case "Double" -> { if(esNumero(valorIngresado) && (valorIngresado.contains(".") || valorIngresado.contains(","))) variableIngresada = (T) Double.valueOf(valorIngresado.trim()); }
-        case "Float" -> { if(esNumero(valorIngresado) && (valorIngresado.contains(".") || valorIngresado.contains(","))) variableIngresada = (T) Float.valueOf(valorIngresado.trim()); }
+        case "Double" -> { if(esNumero(valorIngresado) || valorIngresado.contains(".")) variableIngresada = (T) Double.valueOf(valorIngresado.trim()); }
+        case "Float" -> { if(esNumero(valorIngresado) && valorIngresado.contains(".")) variableIngresada = (T) Float.valueOf(valorIngresado.trim()); }
         case "Integer" -> { if(esNumero(valorIngresado)) variableIngresada = (T) Integer.valueOf(valorIngresado.trim()); }
       }
     } catch (Exception e) {

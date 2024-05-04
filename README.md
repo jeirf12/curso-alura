@@ -1,11 +1,7 @@
 # Gestor de multimedia (Películas y Series)
 
-El sistema permite la gestión de una biblioteca de contenido digital como Netflix, Prime u otro. La herramienta
-permite registrar películas o series, mostrar sus fichas técnicas, tambien maneja una serie de entradas basicas con un menú interactivo.
+El sistema permite la gestión de evaluaciones de una película, permitiendo que un usuario ingrese las calificaciones y calcule la media instantáneamente después de obtener las entradas. Es ideal para recibir retroalimentación sobre una película especifica rápidamente.
 
-## Discurso del problema
-
-Desarrolla un programa en Java que funcione como un menú interactivo para un sistema de gestión de contenido multimedia. El programa deberá permitir al usuario registrar nuevas películas, mostrando detalles como el nombre, año de lanzamiento y duración. Además, el programa deberá permitir al usuario salir cuando lo desee.
 
 ## Pre-requisitos
 
@@ -27,7 +23,7 @@ Para esto vamos a utilizar la CLI.
 
 **En Gnu-Linux/MacOS/windows:**
 ```
-git clone https://github.com/jeirf12/curso-alura -b clase-02
+git clone https://github.com/jeirf12/curso-alura -b clase-01
 ```
 </details>
 
@@ -64,17 +60,18 @@ make run
 ---
 ## Introducción
 
-La aplicación contiene elementos que se usa en la Programación orientada a objetos (POO), 
+La aplicación contiene elementos que se usa en la Programación imperativa, 
 en el cual va dirigida a aquellas personas que están iniciando en el mundo de la ingeniería en sistemas, informáticas, entre otros.
-Dentro se puede encontrar con los pilares de POO como `abstraccion`, `encapsulamiento`, `herencia`, y  `polimorfismo`.
+Dentro se puede encontrar con la terminología de `variable`, `inicialización`, `estructuras de control o condicionales`, y `ciclos`.
 También se ve la re factorización y uso de librerías propias, que a medida va avanzando en este campo
-va a tener que aprender a crear o reutilizar, según los requerimientos o reglas de negocio.
+va a tener que aprender a crear o reutilizar, según los requerimientos o reglas de negocio que sean propuestos.
 
-## Programación orientada a objetos (POO)
-## Clase
-## Objeto
-## Diferencias entre Clase y objeto
-## Abstracción
-## encapsulamiento
-## Herencia
-## Polimorfismo
+## ¿Qué es una variable?
+## ¿Qué es un objeto?
+## ¿Qué es una estructura de control?
+## ¿Qué es un ciclo?
+## Ciclo for
+## Ciclo while
+## Ciclo do..while
+## Ciclo foreach
+## Diferencias entre ciclos
