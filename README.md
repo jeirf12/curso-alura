@@ -1,4 +1,4 @@
-# Gestor de multimedia (Películas y Series)
+# Gestor de evaluaciones de películas
 
 El sistema permite la gestión de evaluaciones de una película, permitiendo que un usuario ingrese las calificaciones y calcule la media instantáneamente después de obtener las entradas. Es ideal para recibir retroalimentación sobre una película especifica rápidamente.
 
@@ -37,7 +37,7 @@ Para la instalación tenemos varias maneras.
 
 > CLI
 
-En primer lugar, nos ubicamos en la raiz del proyecto y vamos a ejecutar el siguiente comando para compilar y ejecutar el proyecto.
+En primer lugar, nos ubicamos en la raíz del proyecto y vamos a ejecutar el siguiente comando para compilar y ejecutar el proyecto.
 
 **En linux/MacOS/windows:**
 ```
@@ -51,9 +51,9 @@ make run
 
 > IntelliG
 
-* En caso de utilizar el IDE intellig, solo es buscar la opcion abrir proyecto y seleccionan la carpeta donde esta guardado el proyecto en su pc.
+* En caso de utilizar el IDE intellig, solo es buscar la opción abrir proyecto y seleccionan la carpeta donde esta guardado el proyecto en su pc.
 
-* En segundo lugar, es buscar el boton ejecutar; que es de color verde con un icono de reproducir.
+* En segundo lugar, es buscar el botón ejecutar; que es de color verde con un icono de reproducir.
 
 </details>
 
