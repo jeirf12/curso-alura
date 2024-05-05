@@ -13,6 +13,7 @@ public class Pelicula extends Titulo {
 
   public Pelicula(String nombre, Integer fechaDeLanzamiento, Boolean estaIncluidoEnelPlanBasico, String sinopsis, Integer tiempoDeDuracionEnMinutos) {
     super(nombre, fechaDeLanzamiento, estaIncluidoEnelPlanBasico, sinopsis, tiempoDeDuracionEnMinutos);
+    this.director = "";
   }
 
   public Pelicula(String nombre, Integer fechaDeLanzamiento, Boolean estaIncluidoEnelPlanBasico, String sinopsis, Integer tiempoDeDuracionEnMinutos, String director) {
